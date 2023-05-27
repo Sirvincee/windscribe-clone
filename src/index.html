@@ -8,27 +8,35 @@
   <body class="text-white">
     <!-- section 1 -->
     <!-- header wrapper -->
-    <div class="w-full h-[100vh] bg-gray-800 borderlight mt-2">
+    <div class="w-full h-[100vh] bg-gray-800 pt-2">
       <!-- header -->
-      <header class="h-[12vh] w-full">
+      <header
+        class="h-[12vh] w-full mt-3 md:flex flex-col items-center lg:flex-row lg:m-0 lg:justify-between">
         <!-- logo and navbar -->
-        <section class="w-full h-[12vh] mt-3">
-          <!-- logo -->
-          <div
-            class="w-full h-1/2 py-4 text-[41px] flex items-center justify-center font-mono tracking-tighter">
-            windscribe
-            <span class="w-[8%] h-full bg-teal-800 p-3 ml-3"></span>
-          </div>
-          <div
-            class="w-full h-1/2 flex justify-between items-center text-xs px-3 pb-2">
-            <span class="cursor-pointer">Features</span>
-            <span class="cursor-pointer">Pricing</span>
-            <span class="cursor-pointer">Support</span>
-            <span class="cursor-pointer">Download</span>
-            <span class="cursor-pointer">Log In</span>
-            <span class="cursor-pointer">Sign Up</span>
-          </div>
-        </section>
+        <!-- logo -->
+        <div
+          class="w-full h-1/2 py-4 text-[41px] flex items-center justify-center font-mono tracking-tighter md:text-[50px] lg:w-[30%] lg:text-[44px]">
+          windscribe
+          <span
+            class="w-[8%] h-full bg-teal-800 p-3 ml-3 md:w-[5%] md:hidden"></span>
+        </div>
+        <!-- navbar -->
+        <div
+          class="w-full h-1/2 flex justify-between items-center text-xs px-3 pb-2 md:w-[60%] md:text-[16px] lg:w-[60%] lg:text-[18px] lg:flex lg:items-center lg:p-0 lg:px-2 lg:mr-8">
+          <span class="cursor-pointer">Features</span>
+          <span class="cursor-pointer">Pricing</span>
+          <span class="cursor-pointer">Support</span>
+          <span
+            class="cursor-pointer lg:p-3 lg:rounded-full lg:bg-[#88c53a] lg:w-28 flex justify-center items-center"
+            >Download</span
+          >
+          <span
+            class="cursor-pointer lg:p-3 lg:rounded-full lg:borderlight lg:w-28 flex justify-center items-center"
+            >Log In</span
+          >
+          <span class="cursor-pointer lg:hidden">Sign Up</span>
+          <span class="w-7 h-5 bg-teal-800 md:hidden hidden lg:block"></span>
+        </div>
       </header>
     </div>
     <br />
