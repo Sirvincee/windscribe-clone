@@ -1207,6 +1207,10 @@ video {
     margin: auto;
   }
 
+  .\32xl\:m-0 {
+    margin: 0px;
+  }
+
   .\32xl\:my-10 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
@@ -1311,6 +1315,22 @@ video {
 
   .\32xl\:mr-\[150px\] {
     margin-right: 150px;
+  }
+
+  .\32xl\:mb-64 {
+    margin-bottom: 16rem;
+  }
+
+  .\32xl\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .\32xl\:mb-40 {
+    margin-bottom: 10rem;
+  }
+
+  .\32xl\:mb-44 {
+    margin-bottom: 11rem;
   }
 
   .\32xl\:flex {
