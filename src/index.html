@@ -14,10 +14,10 @@
         class="h-[12vh] w-full mt-3 md:flex flex-col items-center lg:flex-row lg:m-0 lg:justify-between 2xl:h-[10vh]">
         <!-- logo -->
         <div
-          class="w-full h-1/2 py-4 text-[36px] flex items-center justify-center font-mono tracking-tighter md:text-[50px] lg:w-[30%] lg:text-[44px] 2xl:text-[42px]">
-          windscribe
-          <span
-            class="w-[8%] h-full bg-teal-800 p-3 ml-3 md:w-[5%] md:hidden"></span>
+          class="w-[55%] m-auto py-4 flex items-center justify-center md:w-[25%] md:py-2 lg:w-[20%] lg:ml-10 2xl:w-[13%] 2xl:ml-20">
+          <img src="./imgs/windscribe-logo.png" alt="homeLogo" />
+          <!-- <span
+            class="w-[8%] h-full bg-teal-800 p-3 ml-3 md:w-[5%] md:hidden"></span> -->
         </div>
         <!-- navbar -->
         <div
@@ -41,8 +41,15 @@
       <!-- 1st part of body (100vh) -->
       <main class="w-full h-[89vh] lg:h-[100vh] 2xl:flex md:h-[57vh]">
         <!-- left partition for 2xl screens -->
-        <section class="hidden w-[40%] 2xl:flex pt-14 justify-end">
-          <div class="w-[58%] h-[85%] bg-slate-800 rounded-lg"></div>
+        <section class="hidden w-[40%] 2xl:flex pt-10 justify-end">
+          <div
+            class="w-[58%] h-[85%] bg-slate-800 rounded-lg"
+            style="
+              background: url(./imgs/windscribe-screenshot.png);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+            "></div>
         </section>
         <!--end of left partition for 2xl screens-->
         <div
@@ -68,7 +75,7 @@
         </div>
       </main>
       <!-- 2nd part of body (150vh) -->
-      <main class="w-full bg-white lg:h-fit pb-14">
+      <main class="w-full lg:h-fit pb-14 bg-white">
         <!-- what is windscribe-body -->
         <div class="w-full pt-72 md:pt-[450px] md:mb-20 2xl:mt-20">
           <span
@@ -86,7 +93,7 @@
         <!-- windscribe encrypts...-body -->
 
         <div
-          class="w-[98%] h-[190px] m-auto px-1 text-[#81b6d7] flex items-center justify-center md:h-[350px] lg:h-[500px] lg:w-[70%] 2xl:w-[50%]"
+          class="w-[98%] h-[190px] m-auto px-1 text-[#4ea2d6] flex items-center justify-center md:h-[350px] lg:h-[500px] lg:w-[70%] 2xl:w-[50%]"
           style="
             background: url(./imgs/windscribe-tagline.png);
             background-repeat: no-repeat;
@@ -101,23 +108,31 @@
         </div>
       </main>
       <!-- 3rd part of body (110vh) -->
-      <main class="w-full bg-slate-800">
-        <div class="w-full mt-28 mb-16">
-          <img src="./internet.png" alt="illustration" />
-        </div>
-        <div
-          class="w-[80%] m-auto flex items-center justify-center text-[34px] text-center mb-16">
-          Stop tracking and browse privately
-        </div>
-        <div class="w-[60%] m-auto flex justify-center items-center mb-28">
-          <span class="w-[40%] flex items-center justify-center"
-            ><img src="./imgs/openMore.png" alt="moreLogo" class="w-12 h-12"
-          /></span>
-          <span
-            class="w-[50%] flex items-center justify-center text-[21px] text-[#88c53a] cursor-pointer"
-            >Learn More</span
-          >
-        </div>
+      <main
+        class="w-full bg-slate-800 md:border-2 border-slate-800 2xl:flex items-center justify-center">
+        <section
+          class="w-full pt-28 mb-16 md:mt-48 md:w-[60%] md:m-auto md:mb-20 lg:w-[50%] lg:mt-52 2xl:mt-32 2xl:w-[30%] 2xl:ml-[250px]">
+          <img src="./imgs/internet.png" alt="illustration" />
+        </section>
+        <section class="m-auto 2xl:pt-[200px] 2xl:w-[40%] 2xl:mr-[200px]">
+          <div
+            class="w-[80%] m-auto flex items-center justify-center text-[34px] text-center mb-16 md:w-[55%] md:text-[43px] md:mb-8 lg:w-[45%] 2xl:w-[55%] 2xl:m-auto 2xl:mb-10 2xl:text-[40px]">
+            Stop tracking and browse privately
+          </div>
+          <div
+            class="w-[60%] m-auto flex justify-center items-center mb-28 md:w-[28%] lg:w-[22%] 2xl:w-[35%] 2xl:m-auto">
+            <span class="w-[40%] flex items-center justify-center"
+              ><img
+                src="./imgs/openMore.png"
+                alt="moreLogo"
+                class="w-12 h-12 2xl:w-11 2xl:h-11"
+            /></span>
+            <span
+              class="w-[50%] flex items-center justify-center text-[21px] text-[#88c53a] cursor-pointer 2xl:w-[50%]"
+              >Learn More</span
+            >
+          </div>
+        </section>
       </main>
       <!-- 3rd body continuation -->
       <!-- <main class="w-full h-[100vh] borderlight bg-black">
