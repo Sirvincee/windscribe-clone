@@ -892,6 +892,10 @@ video {
   width: 98%;
 }
 
+.w-\[75\%\] {
+  width: 75%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1121,6 +1125,11 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-\[\#81b6d7\] {
+  --tw-text-opacity: 1;
+  color: rgb(129 182 215 / var(--tw-text-opacity));
+}
+
 .borderlight {
   border-width: 2px;
   --tw-border-opacity: 1;
@@ -1190,6 +1199,14 @@ video {
     height: 300px;
   }
 
+  .md\:h-\[250px\] {
+    height: 250px;
+  }
+
+  .md\:h-\[400px\] {
+    height: 400px;
+  }
+
   .md\:w-\[18\%\] {
     width: 18%;
   }
@@ -1226,6 +1243,26 @@ video {
     width: 520px;
   }
 
+  .md\:w-\[48\%\] {
+    width: 48%;
+  }
+
+  .md\:w-\[52\%\] {
+    width: 52%;
+  }
+
+  .md\:w-\[75\%\] {
+    width: 75%;
+  }
+
+  .md\:w-\[50\%\%\] {
+    width: 50%%;
+  }
+
+  .md\:w-\[100\%\] {
+    width: 100%;
+  }
+
   .md\:justify-center {
     justify-content: center;
   }
@@ -1241,6 +1278,29 @@ video {
 
   .md\:text-\[50px\] {
     font-size: 50px;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .md\:text-\[19px\] {
+    font-size: 19px;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
@@ -1290,6 +1350,14 @@ video {
     height: 430px;
   }
 
+  .lg\:h-\[400px\] {
+    height: 400px;
+  }
+
+  .lg\:h-\[500px\] {
+    height: 500px;
+  }
+
   .lg\:max-h-fit {
     max-height: -moz-fit-content;
     max-height: fit-content;
@@ -1329,6 +1397,14 @@ video {
 
   .lg\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .lg\:w-\[65\%\] {
+    width: 65%;
+  }
+
+  .lg\:w-full {
+    width: 100%;
   }
 
   .lg\:flex-row {
@@ -1460,6 +1536,10 @@ video {
     width: 55%;
   }
 
+  .\32xl\:w-\[50\%\] {
+    width: 50%;
+  }
+
   .\32xl\:justify-start {
     justify-content: flex-start;
   }
@@ -1482,5 +1562,10 @@ video {
 
   .\32xl\:text-\[42px\] {
     font-size: 42px;
+  }
+
+  .\32xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
