@@ -722,6 +722,10 @@ video {
   width: 35%;
 }
 
+.w-\[40\%\] {
+  width: 40%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1113,6 +1117,11 @@ video {
     font-size: 56px;
   }
 
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .md\:text-\[58px\2c 1\] {
     color: 58px,1;
   }
@@ -1326,9 +1335,27 @@ video {
   .lg\:text-\[50px\] {
     font-size: 50px;
   }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:m-0 {
+    margin: 0px;
+  }
+
+  .\32xl\:m-auto {
+    margin: auto;
+  }
+
   .\32xl\:mr-14 {
     margin-right: 3.5rem;
   }
@@ -1343,6 +1370,26 @@ video {
 
   .\32xl\:mt-1 {
     margin-top: 0.25rem;
+  }
+
+  .\32xl\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .\32xl\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .\32xl\:mr-36 {
+    margin-right: 9rem;
+  }
+
+  .\32xl\:block {
+    display: block;
+  }
+
+  .\32xl\:flex {
+    display: flex;
   }
 
   .\32xl\:h-\[10vh\] {
@@ -1381,6 +1428,42 @@ video {
     width: 2.25rem;
   }
 
+  .\32xl\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .\32xl\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .\32xl\:w-\[75\%\] {
+    width: 75%;
+  }
+
+  .\32xl\:w-\[73\%\] {
+    width: 73%;
+  }
+
+  .\32xl\:w-\[20px\] {
+    width: 20px;
+  }
+
+  .\32xl\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .\32xl\:w-\[28\%\] {
+    width: 28%;
+  }
+
+  .\32xl\:items-start {
+    align-items: flex-start;
+  }
+
+  .\32xl\:justify-start {
+    justify-content: flex-start;
+  }
+
   .\32xl\:border {
     border-width: 1px;
   }
@@ -1391,6 +1474,34 @@ video {
 
   .\32xl\:p-\[14px\] {
     padding: 14px;
+  }
+
+  .\32xl\:p-0 {
+    padding: 0px;
+  }
+
+  .\32xl\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .\32xl\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .\32xl\:pl-20 {
+    padding-left: 5rem;
+  }
+
+  .\32xl\:pr-20 {
+    padding-right: 5rem;
+  }
+
+  .\32xl\:pr-36 {
+    padding-right: 9rem;
+  }
+
+  .\32xl\:pr-\[150px\] {
+    padding-right: 150px;
   }
 
   .\32xl\:text-\[40px\] {

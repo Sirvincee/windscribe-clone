@@ -39,11 +39,14 @@
         </div>
       </header>
       <!-- 1st part of body (100vh) -->
-      <main class="w-full h-[120vh]">
+      <main class="w-full h-[120vh] 2xl:flex">
+        <!-- left partition for 2xl screens -->
+        <section class="hidden 2xl:block w-[40%] borderlight"></section>
+        <!--end of left partition for 2xl screens-->
         <div
-          class="w-full px-3 flex flex-col items-center justify-center mt-7 lg:mt-14">
+          class="w-full px-3 flex flex-col items-center justify-center mt-7 lg:mt-14 2xl:w-[60%] 2xl:mt-0 2xl:pt-20 2xl:justify-start 2xl:pr-[150px]">
           <span
-            class="w-full text-center text-3xl flex items-center justify-center mb-5 md:w-[80%] md:text-[56px] lg:w-[63%] lg:text-[50px]"
+            class="w-full text-center text-3xl flex items-center justify-center mb-5 md:w-[80%] md:text-5xl lg:w-[63%] lg:text-5xl 2xl:w-[75%]"
             style="line-height: 1"
             ><h1>Browse the web privately as it was meant to be</h1></span
           >
@@ -53,7 +56,7 @@
             <span class="block"><h3>Windscribe sets you free</h3></span>
           </span>
           <span
-            class="w-[60%] flex justify-center items-center rounded-full p-2 text-2xl px-4 mb-10 bg-[#88c53a] py-3 md:w-[30%] lg:w-[24%] lg:py-[14px]"
+            class="w-[60%] flex justify-center items-center rounded-full p-2 text-2xl px-4 mb-10 bg-[#88c53a] py-3 md:w-[30%] lg:w-[24%] lg:py-[14px] 2xl:w-[28%]"
             >Get Windscribe</span
           >
           <span
