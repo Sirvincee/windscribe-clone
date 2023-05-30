@@ -1028,6 +1028,10 @@ video {
     margin-top: 2rem;
   }
 
+  .md\:mt-28 {
+    margin-top: 7rem;
+  }
+
   .md\:block {
     display: block;
   }
