@@ -727,6 +727,10 @@ video {
   width: 100%;
 }
 
+.w-\[1040px\] {
+  width: 1040px;
+}
+
 .cursor-default {
   cursor: default;
 }
@@ -876,6 +880,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -951,8 +960,21 @@ video {
   line-height: 1rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-\[17\.5px\] {
+  font-size: 17.5px;
+}
+
 .tracking-wider {
   letter-spacing: 0.05em;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 
 .text-\[\#4ea2d6\] {
