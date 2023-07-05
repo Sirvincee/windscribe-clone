@@ -11,6 +11,19 @@
       rel="stylesheet" />
   </head>
   <body class="text-white" style="font-family: 'Lato', sans-serif">
+    <!-- loader wrapper -->
+    <div class="w-full h-[100vh] bg-gray-900 flex items-center justify-center" id="loader">
+      <div class="spinner w-[10%] h-[10%]">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
     <!-- section 1 -->
     <!-- header & body wrapper -->
     <div class="w-full bg-gray-900 pt-2">
@@ -453,5 +466,19 @@
         </div>
       </footer>
     </div>
+
+    <!-- loader -->
+    <script>
+      window.addEventListener('load', function() {
+  var loader = document.getElementById('loader');
+  loader.style.display = 'none'; // Hide the loader when the page finishes loading
+});
+
+window.addEventListener('DOMContentLoaded', function() {
+  var loader = document.getElementById('loader');
+  loader.style.display = 'block'; // Show the loader when the page starts loading
+});
+
+    </script>
   </body>
 </html>
